@@ -1,7 +1,12 @@
 .header-nav {
   position: sticky;
+  display: flex;
   box-shadow: 0px 10px 20px #ccc;
   margin-bottom: 10px;
+  list-style: none;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
 }
 .header-ul {
   display: flex;
@@ -11,4 +16,10 @@
 .header-h2 {
   font-family: monospace;
   font-size: 30px;
+}
+.logout-button {
+  padding: 15px 30px;
+  background-color: red;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
